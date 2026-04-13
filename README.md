@@ -1,8 +1,11 @@
+# GOCODE-TechnicalChallenge
+GOCODE Technical Challenge
+
 # Setup
 
 npm install
 npx playwright install
-docker pull pocketaces2/fashionhub-demo-app 
+docker pull pocketaces2/fashionhub-demo-app
 
 # Run tests
 
@@ -20,5 +23,5 @@ Assumption: staging requires internal network access (VPN / private DNS) or is a
 ## Production
 npm test-e2e-prod
 
-## All environments together 
+## All environments together
 npm test-e2e
