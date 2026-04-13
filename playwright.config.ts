@@ -4,7 +4,7 @@ import { getBaseUrl } from './config/env';
 
 export default defineConfig({
   use: {
-    headless: false,
+    headless: true,
   },
 
   projects: [
