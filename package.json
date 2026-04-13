@@ -1,0 +1,19 @@
+{
+  "name": "technic_task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-e2e": "npx playwright test tests/e2e",
+    "test-e2e-local": "npx playwright test --project=chromium",
+    "test-e2e-staging": "npx playwright test --project=chromium --config=playwright.staging.config.ts",
+    "test-e2e-prod": "npx playwright test --project=chromium --config=playwright.production.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}
